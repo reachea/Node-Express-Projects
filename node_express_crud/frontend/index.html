@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./index.style.css" />
+  <title>Document</title>
+</head>
+<body>
+  <div class="main_container">
+    <div class="navbar">
+      <ul class="nav_list">
+        <li class="nav_list_item"><a href="#">Home</a></li>
+
+        <li class="nav_list_item"><a href="#">About</a></li>
+
+        <li class="nav_list_item"><a href="#">Work</a></li>
+
+        <li class="nav_list_item"><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="main_content">
+      <div class="form_container">
+        <form>
+          <h3>Demo Application</h3>
+          <div class="input_container">
+            <label for="name" class="input_label">Person's name</label>
+            <input
+              type="text"
+              id="name"
+              class="input_form"
+              autocomplete="false"
+            />
+            <button type="submit" class="submit_button">Submit</button>
+          </div>
+          <h4 class="error_message" ></h4>
+        </form>
+      </div>
+    </div>
+
+    <div class="people_list">
+        
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
